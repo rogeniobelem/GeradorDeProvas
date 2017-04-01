@@ -30,7 +30,6 @@ public class QuestaoTest {
 		assertEquals("5", questao.getRespostasErradas().get(1));
 		assertEquals("125", questao.getRespostasErradas().get(2));
 		assertEquals("22", questao.getRespostasErradas().get(3));
-
 	}
 
 	@Test
@@ -53,7 +52,6 @@ public class QuestaoTest {
 		questao.corrigeRespostaCerta("4");
 
 		assertEquals("4", questao.getRespostaCerta());
-
 	}
 
 }
